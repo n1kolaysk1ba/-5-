@@ -14,7 +14,7 @@ int main()
 	cout << "input b: " << endl;
 	cin >> b;
 
-	cout << a * b << endl;
+	cout << a / b << endl;
 
 	system("pause");
 	return 0;
