@@ -26,7 +26,7 @@ int main()
 
 	while (x <= (x2 + h / 2))
 	{
-		y = pow(x, 3) + 2 * log(abs(x)) + 3;
+		y = pow(x, 6) + 5 * log(abs(x)) + 3;
 		cout << setw(10) << "x=" << x << setw(10) << "y=" << y << endl;
 		x += h;
 
